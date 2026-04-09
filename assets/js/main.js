@@ -19,7 +19,7 @@ function randomize() {
         if (Math.random() > .5) {
             scale = 1;
             translateX = randomNumber(0, 80);
-            translateY = randomNumber(0, 80);
+            translateY = randomNumber(0, 80); 
         }
 
         div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
