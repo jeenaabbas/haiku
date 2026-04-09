@@ -23,7 +23,7 @@ function randomize() {
         }
 
         div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
-
+ 
 
     });
 
