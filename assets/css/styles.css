@@ -1,4 +1,5 @@
 /* styles.css */
+
 html {
 	width: 100%;
 	height: 100%;
@@ -9,7 +10,9 @@ body {
 	background-color: black;
 	color: whitesmoke;
 	font-size: 5rem;
+	font-family: 'Lilita One', sans-serif;
 	overflow: hidden;
+
 	background-image: url(../img/ocean.gif);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -44,6 +47,7 @@ div {
 */
 
 @keyframes growAndGlow {
+
 	from{
 		color: whitesmoke; 
 	}
@@ -57,5 +61,5 @@ div {
 		transform: scale(3);
 		color: red; 
 	}
-}
 
+}
