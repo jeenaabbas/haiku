@@ -3,27 +3,25 @@ html {
 	width: 100%;
 	height: 100%;
 }
+
 body {
 	margin: 1rem;
 	background-color: black;
 	color: whitesmoke;
 	font-size: 5rem;
 	overflow: hidden;
-	background-image: url(../img/flames.gif);
+	background-image: url(../img/oceans.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
- 
+
 .grid-container {
 	display: grid;
 	/*grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
-
-
-
 }
 
 div {
@@ -31,13 +29,12 @@ div {
 	transition-duration: 3s;
 }
 
-
 .last {
 	/* transform: skew(30deg,30deg);*/ 
 	padding-bottom: 2rem;
 	border-bottom: 2pm solid rgb(220, 200, 180);
-	
 }
+
 /*
 
 .last:hover {
@@ -45,6 +42,7 @@ div {
 	animation-duration: 7ms;
 }
 */
+
 @keyframes growAndGlow {
 	from{
 		color: whitesmoke; 
@@ -59,6 +57,5 @@ div {
 		transform: scale(3);
 		color: red; 
 	}
-
 }
 
